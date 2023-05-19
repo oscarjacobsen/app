@@ -15,6 +15,10 @@ footer {
     justify-content: space-evenly
   }
   
+  .navbar {
+    background-color: "#282c34"
+  }
+
   .navbarButton {
     color: #fff !important;
     padding: .5rem 1rem !important;

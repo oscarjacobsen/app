@@ -1,10 +1,20 @@
 import logo from './logo.png';
 import './App.css';
+//import Map from "./Map"
+
+import { BrowserRouter } from 'react-router-dom';
+
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvar } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <BrowserRouter>
+    <div className="relative z-0" styles="background-color: #282c34">
+      <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <Navbar />
+      </div>
+      
+      <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome all you <code>Digital Engineers!</code>
@@ -17,8 +27,13 @@ function App() {
         >
           My homepage
         </a>
-      </header>
+      </div>
+      <body className="App-body">
+        {/*<Map />*/}
+      </body>
     </div>
+    </BrowserRouter>
+    
   );
 }
 
