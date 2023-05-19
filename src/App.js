@@ -9,7 +9,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 function App() {
   return (
     <BrowserRouter>
-    <div className="relative z-0" styles="background-color: #282c34">
+    <div className="relative z-0 navbarColor">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
       <Navbar />
       </div>
@@ -31,6 +31,10 @@ function App() {
       <body className="App-body">
         {/*<Map />*/}
       </body>
+      <About />
+      <Experience />
+      <Feedbacks />
+      <Works />
     </div>
     </BrowserRouter>
     

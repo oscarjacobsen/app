@@ -44,8 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain App-logo' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            <code>Oscar Jacobsen </code> &nbsp;
-            <span className='sm:block hidden'> | ADSE</span>
+            Welcome all you <br></br> <code>Digital Engineers!</code>
           </p>
         </Link>
 
