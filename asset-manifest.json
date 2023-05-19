@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.c4f1240a.css",
-    "main.js": "/app/static/js/main.b86def41.js",
+    "main.css": "/app/static/css/main.1c8d4ca1.css",
+    "main.js": "/app/static/js/main.9fa64138.js",
     "static/media/tripguide.png": "/app/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/carrent.png": "/app/static/media/carrent.6b1e855ede285c40b77f.png",
     "static/media/jobit.png": "/app/static/media/jobit.755da7149642fd049273.png",
     "static/media/web.png": "/app/static/media/web.c0cb2cc13791a26822d3.png",
+    "static/media/norconsult-logo.png": "/app/static/media/norconsult-logo.73e1b50ff09a4ea82ab1.png",
     "static/media/backend.png": "/app/static/media/backend.08c8d93b8142c41a9e63.png",
     "static/media/mobile.png": "/app/static/media/mobile.15e7b89f1018dcdba6e7.png",
     "static/media/creator.png": "/app/static/media/creator.f8923ce18390029928ac.png",
@@ -15,11 +16,11 @@
     "static/media/menu.svg": "/app/static/media/menu.a14e08da817ed339d3849bc81037592d.svg",
     "static/media/threejs.svg": "/app/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
     "index.html": "/app/index.html",
-    "main.c4f1240a.css.map": "/app/static/css/main.c4f1240a.css.map",
-    "main.b86def41.js.map": "/app/static/js/main.b86def41.js.map"
+    "main.1c8d4ca1.css.map": "/app/static/css/main.1c8d4ca1.css.map",
+    "main.9fa64138.js.map": "/app/static/js/main.9fa64138.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f1240a.css",
-    "static/js/main.b86def41.js"
+    "static/css/main.1c8d4ca1.css",
+    "static/js/main.9fa64138.js"
   ]
 }
