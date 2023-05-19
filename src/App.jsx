@@ -4,7 +4,7 @@ import './App.css';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvar } from './components';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 function App() {
   return (
@@ -32,9 +32,12 @@ function App() {
         {/*<Map />*/}
       </body>
       <About />
+      <Contact />
+      <Tech />
       <Experience />
       <Feedbacks />
       <Works />
+      
     </div>
     </BrowserRouter>
     
