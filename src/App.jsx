@@ -32,7 +32,6 @@ function App() {
         {/*<Map />*/}
       </body>
       <About />
-      <Contact />
       <Tech />
       <Experience />
       <Feedbacks />
