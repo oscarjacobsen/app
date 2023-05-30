@@ -11,3 +11,26 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: consolas,
+  }
+  
+  nav{
+    height: 90px;
+    background: "#282c34";
+  }
+  .nav-inner{
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .logo{
+    color: #fff;
+    font-size: 16px;
+  }

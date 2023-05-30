@@ -3,15 +3,66 @@ import './App.css';
 //import Map from "./Map"
 
 import { BrowserRouter } from 'react-router-dom';
+import React, { useState } from 'react';
+import {Navbar, Switch, Sidebar} from './components';
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+
+function DirUploadFiles() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    document.getElementById("filepicker").addEventListener(
+      "change",
+      (event) => {
+        let output = document.getElementById("listing");
+        for (const file of event.target.files) {
+          let item = document.createElement("li");
+          item.textContent = file.webkitRelativePath;
+          output.appendChild(item);
+        }
+      },
+      false
+    );
+  }
+
+  return (
+    <div>
+    <input
+    type="file"
+    id="filepicker"
+    name="fileList"
+    onclick="{handleClick}"
+    webkitdirectory=""
+    multiple=""
+  />
+  <ul id="listing" />
+  </div>
+
+  );
+}
+
+function MyButton({ name }) {
+  return (
+    <button>
+      I'm a button - {name}
+    </button>
+  );
+}
 
 function App() {
+  const [value, setValue] = useState(false);
   return (
+
     <BrowserRouter>
     <div className="relative z-0 navbarColor">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-      <Navbar />
+      <Sidebar />
+      <Switch 
+        isOn={value}
+        onColor="#EF476F"
+        handleToggle={() => setValue(!value)}
+      />
+      <MyButton name="Oscardo"/>
       </div>
       
       <div className="App-header">
@@ -31,11 +82,7 @@ function App() {
       <body className="App-body">
         {/*<Map />*/}
       </body>
-      <About />
-      <Tech />
-      <Experience />
-      <Feedbacks />
-      <Works />
+      
       
     </div>
     </BrowserRouter>
