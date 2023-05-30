@@ -13,7 +13,7 @@ import { logo, menu, close } from "../assets";
 const Sidebar = () => {
     return (
       <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-        <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
+        <a href="/app" className="text-decoration-none" style={{ color: 'inherit' }}>
         <img src={logo} alt='logo' className='App-logo' />
           <p className='text-white text-[12px] font-bold cursor-pointer flex '>
             Welcome all you <br></br> <code>Digital Engineers!</code>
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 padding: '20px 5px',
               }}
             >
-              <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
+              <a href="/app" className="text-decoration-none" style={{ color: 'inherit' }}>
           <p className='text-white text-[12px] font-bold cursor-pointer flex '>
           <code>@ OscarJacobsen.no</code>
           </p>
