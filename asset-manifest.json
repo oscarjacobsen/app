@@ -1,26 +1,41 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.01208532.css",
-    "main.js": "/app/static/js/main.59cbb866.js",
+    "main.css": "/app/static/css/main.ad33e66f.css",
+    "main.js": "/app/static/js/main.ba5c2f4c.js",
     "static/media/tripguide.png": "/app/static/media/tripguide.991986c795ea140ba063.png",
+    "static/media/fa-solid-900.svg": "/app/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/carrent.png": "/app/static/media/carrent.6b1e855ede285c40b77f.png",
     "static/media/jobit.png": "/app/static/media/jobit.755da7149642fd049273.png",
+    "static/media/fa-brands-400.svg": "/app/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/fa-solid-900.eot": "/app/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/app/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/app/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/app/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/app/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/app/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/app/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/app/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/app/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
     "static/media/web.png": "/app/static/media/web.c0cb2cc13791a26822d3.png",
     "static/media/norconsult-logo.png": "/app/static/media/norconsult-logo.73e1b50ff09a4ea82ab1.png",
+    "static/media/fa-regular-400.eot": "/app/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/app/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/backend.png": "/app/static/media/backend.08c8d93b8142c41a9e63.png",
     "static/media/mobile.png": "/app/static/media/mobile.15e7b89f1018dcdba6e7.png",
     "static/media/creator.png": "/app/static/media/creator.f8923ce18390029928ac.png",
     "static/media/starbucks.png": "/app/static/media/starbucks.c086db5b166ea2f14de1.png",
+    "static/media/fa-regular-400.woff": "/app/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/app/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "static/media/github.png": "/app/static/media/github.ed1c06d925fff0b57e32.png",
     "static/media/close.svg": "/app/static/media/close.8de6460f269d97bdef87c899c2b54e45.svg",
     "static/media/menu.svg": "/app/static/media/menu.a14e08da817ed339d3849bc81037592d.svg",
     "static/media/threejs.svg": "/app/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
     "index.html": "/app/index.html",
-    "main.01208532.css.map": "/app/static/css/main.01208532.css.map",
-    "main.59cbb866.js.map": "/app/static/js/main.59cbb866.js.map"
+    "main.ad33e66f.css.map": "/app/static/css/main.ad33e66f.css.map",
+    "main.ba5c2f4c.js.map": "/app/static/js/main.ba5c2f4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.01208532.css",
-    "static/js/main.59cbb866.js"
+    "static/css/main.ad33e66f.css",
+    "static/js/main.ba5c2f4c.js"
   ]
 }
