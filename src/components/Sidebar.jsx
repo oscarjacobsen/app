@@ -13,10 +13,15 @@ import { logo, menu, close } from "../assets";
 const Sidebar = () => {
     return (
       <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
+        <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
+        <img src={logo} alt='logo' className='App-logo' />
+          <p className='text-white text-[12px] font-bold cursor-pointer flex '>
+            Welcome all you <br></br> <code>Digital Engineers!</code>
+          </p>
+            </a>
         <CDBSidebar textColor="#fff" backgroundColor="#333">
           <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
             <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-        <img src={logo} alt='logo' className='App-logo' />
           <p className='text-white text-[12px] font-bold cursor-pointer flex '>
             Welcome all you <br></br> <code>Digital Engineers!</code>
           </p>
@@ -31,9 +36,8 @@ const Sidebar = () => {
               }}
             >
               <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-        <img src={logo} alt='logo' className='App-logo' />
           <p className='text-white text-[12px] font-bold cursor-pointer flex '>
-            Welcome all you <br></br> <code>Digital Engineers!</code>
+          <code>@ OscarJacobsen.no</code>
           </p>
             </a>
             </div>
